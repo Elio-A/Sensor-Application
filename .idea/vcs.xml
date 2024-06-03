@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Group_One_Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/forwarding-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g1-gui-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/g1-sensor-app" vcs="Git" />
+  </component>
+</project>
