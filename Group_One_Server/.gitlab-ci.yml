@@ -1,0 +1,33 @@
+image: maven:latest
+
+stages:
+  - build
+  - test
+  - package
+
+build:
+  stage: build
+  script: "mvn compile"
+
+test:
+  stage: test
+  script: 
+    - mvn verify 
+    - mvn test
+  artifacts:
+    paths: 
+       - $CI_PROJECT_DIR
+    reports:
+      junit:
+        - target/surefire-reports/TEST.xml
+
+package:
+  stage: package
+  image: maven:latest
+  cache:
+    paths: []
+  script: 
+    - mvn clean install
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR/target/*.jar

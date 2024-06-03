@@ -1,0 +1,14 @@
+SharedDataTypes\SensorObjects\SensorObject.class
+SharedDataTypes\SensorType.class
+Communications\CommunicationsViscount.class
+SharedDataTypes\SensorObjects\SimpleVirtualSensorObject.class
+Communications\ForwardingApp.class
+Main.class
+Communications\CommunicationsService.class
+Communications\ForwardingEndPoint.class
+SharedDataTypes\SensorSample.class
+SharedDataTypes\SensorObjects\VirtualSensorObject.class
+SharedDataTypes\SensorState.class
+Communications\CommunicationsService$1.class
+Communications\CommunicationsService$Command.class
+SharedDataTypes\SensorObjects\SimpleSensorObject.class
